@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
         *{
             margin: 0;
         }
        .main{
         background-image: url(./whatsappchatdark.jpg);
+        
         height: 100vh;
+        width: 100vw;
+        color: white;
+        background-size: contain;
        }
         h3,p{
             display: inline;
@@ -20,7 +25,6 @@
         .pic{
             background-size: cover;
             border-radius: 50%;
-           
             height: 50px;
             width: 50px;
             margin-left: 15px;
@@ -29,11 +33,105 @@
             position: fixed;
             width: 99vw;
             padding: 5px;
-            background-color: black;
+            background-color: rgb(51, 48, 48);
             color: white;
             
             display: flex;
             justify-content: space-between;
+        }
+        .replay{
+            
+            background-color:   rgb(51, 48, 48);
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            
+            position: fixed;
+            width: 100vw;
+            bottom: 0px;
+        }
+        .mai{
+            display: flex;
+            column-gap: 5px;
+            
+        }
+        button{
+            color: white;
+            background-color:   rgb(51, 48, 48);
+            border: none;
+            
+            font-size: 20px;
+            height: 30px;
+            margin-top: 3px;
+        }
+        button:hover{
+            background-color: rgb(86, 83, 83);
+        }
+        input{
+            color: white;
+            outline: none;
+            margin-top: 0px;
+            border: none;
+            width: 83vw;
+            height: 30px;
+            background-color:   rgb(51, 48, 48);
+        }
+    </style>
+    <style>
+        .container{
+            margin-top: 0px;
+            height: 350px;
+            width: 400px;
+            /* border: solid; */
+            display: flex;
+            gap: 15px;
+            
+        }
+        .sticky{
+            position: sticky;
+            top: 80px;
+            /* bottom: 80px; */
+            height: 25px;
+            width: 100px;
+            /* border: solid; */
+            margin: auto;
+            margin-bottom: 20px;
+            background-color: rgb(51, 48, 48) ;
+            border-radius: 5px;
+        }
+        .pho{
+            background-image: url(./ComicBillyButcher.webp);
+            background-size: cover;
+            border-radius: 50%;
+            border: solid;
+            height: 40px;
+            width: 40px;
+        }
+        .block{
+            margin-top: 15px;
+            border: solid;
+            height: 300px;
+            width: 300px;
+        }
+        .text p{
+            padding: 15px;
+            border-radius: 7px;
+            margin: 10px;
+            margin-left: 60px;
+            border: solid;
+            height: 20px;
+            width: 400px;
+            background-color: rgb(51, 48, 48);
+        }
+        .repcontainer p{
+            border: solid;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(51, 48, 48);
+        }
+        .block{
+            padding: 10px;
+            background-color: rgb(51, 48, 48);
         }
     </style>
 </head>
@@ -52,9 +150,182 @@
         <div><i class="fa fa-phone"></i></div></div>
         <div><i class="fa fa-search"></i></div>
     </div></div>
+    <div class="replay">
+        <div class="mai">
+        <button><span><i class="fa fa-smile-o"></i></span></button>
+        <button><i class="fa fa-paperclip"></i></button>
+        <input type="text" placeholder="Type a message" autofocus></div>
+        <div>
+        <button><i class="fa fa-microphone"></i></div></button>
+      </div><br><br><br>
     <div class="main">
-
+        <br>
+        
+        <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Sunday</p></div>
+        <div>
+        <div class="container">
+            <div class="pho"></div>
+            <div class="block">
+                <h4 style="display: block;">~Butcher</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="text" >
+        <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+        <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+    <div class="repcontainer" style="display: flex;justify-content: end;">
+        <p style="display: inline;">okay</p>
     </div>
+    
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Monday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Tueday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Wednesday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Thrusday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Friday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
+<div class="main">
+    <br>
+    
+    <div class="sticky" ><p style="display: block;text-align: center;margin-top:2px;">Saturday</p></div>
+    <div>
+    <div class="container">
+        <div class="pho"></div>
+        <div class="block">
+            <h4 style="display: block;">~Butcher</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates quisquam, et iste maxime obcaecati non beatae repudiandae fugit aliquam earum, nihil expedita delectus culpa in quidem consectetur rem eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, soluta quod, excepturi eligendi numquam nemo explicabo, porro odio reprehenderit quis cupiditate culpa. Voluptatum ab suscipit maiores nihil facilis! Fuga?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facilis? Nulla tempora nesciunt dignissimos sit, ab esse autem praesentium placeat necessitatibus cum hic doloremque voluptate voluptas.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="text" >
+    <p style="display: block;">Lorem ipsum dolor sit amet, consectetur adipisicing esunt sed.</p>
+    <p style="display: block;">fdhdhdfdfdfdfdhdf</p></div>
+<div class="repcontainer" style="display: flex;justify-content: end;">
+    <p style="display: inline;">okay</p>
+</div>
+
+</div>
    
 </body>
 </html>

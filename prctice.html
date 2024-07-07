@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' ></script>
     <style>
-    .green:hover~img{
-          
-            border: green solid;
-          
-    }
-    .yellow:hover~img{
-        border: yellow solid;
-    }
+      *{
+        margin: 0;
+      }
+      .fixed{
+        background-color: rgb(51, 48, 48);
+        color: white;
+        padding: 10px;
+        height: 90px;
+      }
+      span{
+        display: inline-block;
+        font-size: 40px;
+      }
+      .con{
+        display: flex;
+        justify-content: space-between;
+      }
+      .input{
+        display: inline-block;
+        border: 2px solid;
+        width: 97vw;
+        height: 25px;
+        margin-left: 20px;
+        outline: none;
+        
+        background-color: rgb(91, 89, 89); }
+        .input:focus{
+          border-bottom: green solid;
+
+        }
+    </style>
+  </head>
+  <body>
    
-</style>
-</head>
-<body>
-    <div class="green">green</div>
-    <div class="red">red</div>
-    <div class="yellow">yellow</div>
-    <img src="./ComicBillyButcher.webp" height="100" width="100" alt="">
-</body>
+
+    <div class="fixed">
+      <div class="con">
+        <div>
+          <h2>Chats</h2>
+        </div>
+        <div>
+          <span><i class="far fa-edit"></i></span>
+          <span><i class="far fa-filter" ></i></span>
+        </div>
+      </div>
+      <input class="input" type="text" placeholder="Search or start a new chat">
+    </div>
+  </body>
 </html>

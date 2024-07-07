@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' ></script>
     <style>
-        .main{
-            
+        .fixed{
+          background-color: rgb(61, 57, 57);
+          color: white;
+          padding: 10px;
+          height: 90px;
+          position: fixed;
         }
+        .symbols{
+            margin-right: 40px;
+        }
+        .ico{
+          display: inline-block;
+          font-size: 40px;
+        }
+        .con{
+          display: flex;
+          justify-content: space-between;
+        }
+        .input{
+          display: inline-block;
+          border: none;
+          width: 97vw;
+          height: 25px;
+          margin-left: 20px;
+          outline: none;
+          border-radius: 3px;
+          padding-left: 10px;
+          background-color: rgb(91, 89, 89); }
+          .input:focus{
+            border-bottom: green solid;
+  
+          }
+      </style>
+    <style>
+        
         *{
             background-color: rgb(61, 57, 57);
             color: white;
@@ -47,15 +81,29 @@
     </style>
 </head>
 <body>
+    
+    <div class="fixed">
+        <div class="con">
+          <div>
+            <h2>Chats</h2>
+          </div>
+          <div class="symbols">
+            <span class="ico"><i class="far fa-edit"></i></span>
+            <span class="ico"><i class="far fa-filter" ></i></span>
+          </div>
+        </div>
+        <input class="input" type="text" placeholder="Search or start a new chat">
+      </div>
+      <br><br><br><br><br><br>
     <div class="main">
-    <a href="">
+    <a href="./chatsection.html" target="framet">
     <div class="flex">
         <div style="display: flex;">
     <div class="pic" style="background-image: url(./ComicBillyButcher.webp);"></div>
     <div class="head">
         <h3 >Butcher</h3>
         <div>
-        <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
+        <p ><i class='fas fa-check-double'></i> khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
     <div class="date">
         <p >13-07-2024</p>
@@ -65,22 +113,48 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./the-boys-homelander-1014x570.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Homelander</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
     <div class="date">
-        <p >13-07-2024</p>
+        <p >Now</p>
     </div>
 </div></a></div>
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./noir.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Black-Noir</h3>
+        <div>
+        <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
+    </div></div>
+    <div class="date">
+        <p >12-07-2024</p>
+    </div>
+</div></a>
+<a href="">
+    <div class="flex">
+        <div style="display: flex;">
+    <div class="pic" style="background-image: url(./Bruce_Wayne.jpg);"></div>
+    <div class="head">
+        <h3 >Wayne</h3>
+        <div>
+        <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
+    </div></div>
+    <div class="date">
+        <p >09-07-2024</p>
+    </div>
+</div></a>
+<a href="">
+    <div class="flex">
+        <div style="display: flex;">
+    <div class="pic" style="background-image: url(./tyler\ durden.jpg);"></div>
+    <div class="head">
+        <h3 >Tyler Durden</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -91,9 +165,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./john_wick.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Reeves</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -104,9 +178,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./negan\ smith.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Negan Smith</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -117,9 +191,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./mclovin.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >McLovin</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -130,9 +204,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./solider-boy.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Solider-Boy</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -143,9 +217,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./jason.jpg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Bourne</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -156,9 +230,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./rambo.webp);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >John J</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -169,9 +243,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./norman.jpeg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Norman Bates</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -182,9 +256,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./bane.jpeg);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Bane</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -195,9 +269,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./indiana.webp);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Indiana</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -208,9 +282,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./clint.webp);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Eastwood</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
@@ -221,35 +295,9 @@
 <a href="">
     <div class="flex">
         <div style="display: flex;">
-    <div class="pic"></div>
+    <div class="pic" style="background-image: url(./Ryan-Gosling.avif);"></div>
     <div class="head">
-        <h3 >Butcher</h3>
-        <div>
-        <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
-    </div></div>
-    <div class="date">
-        <p >13-07-2024</p>
-    </div>
-</div></a>
-<a href="">
-    <div class="flex">
-        <div style="display: flex;">
-    <div class="pic"></div>
-    <div class="head">
-        <h3 >Butcher</h3>
-        <div>
-        <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
-    </div></div>
-    <div class="date">
-        <p >13-07-2024</p>
-    </div>
-</div></a>
-<a href="">
-    <div class="flex">
-        <div style="display: flex;">
-    <div class="pic"></div>
-    <div class="head">
-        <h3 >Butcher</h3>
+        <h3 >Ryan</h3>
         <div>
         <p >khfsjkjakjskjbkbsbfkkjfkbsk</p></div>
     </div></div>
